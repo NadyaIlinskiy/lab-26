@@ -3,6 +3,7 @@ import Products from '../pages/Products'
 import Cart from '../pages/Cart'
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
+import "../styles/styles.scss";
 
 const App = () => (
   <div>
