@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Product from './Product'
 
-const Cart  = ({ products, total, onCheckoutClicked }) => {
+const Cart  = ({ products, total, onClearButtonClicked }) => {
   const hasProducts = products.length > 0
   const nodes = hasProducts ? (
     products.map(product =>
@@ -21,8 +21,8 @@ const Cart  = ({ products, total, onCheckoutClicked }) => {
     <div>
     
       <div>{nodes}</div>
-      {/* <p>Total: &#36;{total}</p> */}
-      <button onClick={onCheckoutClicked}
+      <p>Total: &#36;{total}</p>
+      <button className="btn btn-dark" onClick={onClearButtonClicked} 
         disabled={hasProducts ? '' : 'disabled'}>
         Checkout
       </button>
@@ -33,7 +33,7 @@ const Cart  = ({ products, total, onCheckoutClicked }) => {
 Cart.propTypes = {
   products: PropTypes.array,
   total: PropTypes.string,
-  onCheckoutClicked: PropTypes.func
+  onClearButtonClicked: PropTypes.func
 }
 
 export default Cart

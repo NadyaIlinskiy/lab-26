@@ -9,7 +9,7 @@ const CartContainer = ({ products, total, checkout }) => (
   <Cart
     products={products}
     total={total}
-    onCheckoutClicked={() => checkout(products)} />
+    onClearButtonClicked={() => checkout (products)} />
 )
 
 CartContainer.propTypes = {
@@ -20,7 +20,7 @@ CartContainer.propTypes = {
     quantity: PropTypes.number.isRequired
   })).isRequired,
   total: PropTypes.string,
-  checkout: PropTypes.func.isRequired
+  clear: PropTypes.func.isRequired
 }
 
 const mapStateToProps = (state) => ({
