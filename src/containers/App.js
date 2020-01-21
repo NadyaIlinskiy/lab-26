@@ -6,7 +6,7 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 import "../styles/styles.scss";
 
 const App = () => (
-  <div>
+  <div >
   <BrowserRouter>
 
 <Link to="/">[    PRODUCTS    ]</Link>

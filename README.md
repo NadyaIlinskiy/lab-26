@@ -1,4 +1,8 @@
 # Redux Shopping Cart
+## Build with Redux tutorial sample from https://redux.js.org/
+
+* [Code SendBox](https://codesandbox.io/s/hopeful-hofstadter-z2tsq)
+* [Netlify](https://csb-z2tsq.netlify.com)
 
 This project template was built with [Create React App](https://github.com/facebookincubator/create-react-app), which provides a simple way to start React projects with no build configuration needed.
 

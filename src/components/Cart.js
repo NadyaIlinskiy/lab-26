@@ -18,7 +18,7 @@ const Cart  = ({ products, total, onClearButtonClicked }) => {
   )
 
   return (
-    <div>
+    <div >
     
       <div>{nodes}</div>
       <p>Total: &#36;{total}</p>
