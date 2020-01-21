@@ -1,0 +1,5 @@
+[
+  {"id": 1, "title": "Taming the State in React: Your journey to master Redux and MobX by Robin Wieruch", "price": 19.99, "inventory": 2},
+  {"id": 2, "title": "Learning Redux: Write maintainable, consistent, and easy-to-test web applications by Daniel Bugl", "price": 31.19, "inventory": 10},
+  {"id": 3, "title": "Learning React: Functional Web Development with React and Redux by Alex Banks and Eve Porcello", "price": 29.49, "inventory": 5}
+]
